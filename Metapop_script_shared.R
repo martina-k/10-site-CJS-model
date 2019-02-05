@@ -1,11 +1,12 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #######################
-#Metapopulation model for Stockholm archipelago murre data, which has 10 islands, and Elsewhere (other sites, all in the Baltic)
+#Metapopulation model for Stockholm archipelago data, which has 10 islands, and Elsewhere (other sites, all in the Baltic)
 #Age is used as state, with with 5 stages: 1-year,2-year,3-year,4-year, adults.
 #Adults are in turn separated into recently ringed and previously ringed
 #Birds are only ringed as 1-year and adults - recently ringed.
 #Thus only one group of individuals
-#Using an m-array format
+#Dataset formatted as individual histories
+#m-array format in analysis
 #Last update 2019-02-05 /MKA
 
 #Model 7
