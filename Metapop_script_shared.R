@@ -42,7 +42,7 @@ library(jagsUI)
 library(gdata)
 
 # Get the data - encounter histories of birds captured 1995-2017
-enc <- read.csv("/Users/Martina/Documents/SthlmSkärgård/Age-as-state_Both1995-2017_Boths.csv", sep=",") 
+enc <- read.csv("Both1995-2017_DatasetCopy20190205.csv", sep=",") 
 #Encounter data produced with EncounterHistoryScript2018.R
 dist <- read.xls("ColonyProtectionSizeDistance.xlsx", sheet="Distance", na.strings=c(".", "", " ", "  ", "NA", "NULL", "__"), fileEncoding="latin1")
 covar <- read.xls("ColonyProtectionSizeDistance.xlsx", sheet="Protection2018_Size", na.strings=c(".", "", " ", "  ", "NA", "NULL", "__"), fileEncoding="latin1")
