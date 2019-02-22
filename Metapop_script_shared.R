@@ -29,6 +29,8 @@
 #Model 11
 #A different p at site 9 and 10 when resights occur
 
+#Model 12
+#Two different tau (thus different variance) for p, one 1996-2013, one 2014-2017
 
 ########################
 #######################
