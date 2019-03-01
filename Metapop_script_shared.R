@@ -6264,8 +6264,8 @@ phi.diff.11ny <- tapply(phi6.means$m11nyres, list(phi6.means$col), FUN=mean)
 phi.diff.x <- tapply(phi6.means$mXres, list(phi6.means$col), FUN=mean)
 colMeans(phi6.means)
 
-p6.means <- data.frame(col=rep(1:10, each=9),period=rep(1:9, times=10), m8res=rep(NA, times=90), m9res=rep(NA, times=90), m10res=rep(NA, times=90), m10taures=rep(NA, times=90), m11nyres=rep(NA, times=90), mXres=rep(NA, times=90))
-for (col in 1:10){
+p6.means <- data.frame(col=rep(1:8, each=9),period=rep(1:9, times=8), m8res=rep(NA, times=72), m9res=rep(NA, times=72), m10res=rep(NA, times=72), m10taures=rep(NA, times=72), m11nyres=rep(NA, times=72), mXres=rep(NA, times=72))
+for (col in 1:8){
   for (t in 1:9){
     p6.means[(col-1)*9+t,"m8res"] <- round(m8$mean$p.real[col, 6, t], digits=3)
     p6.means[(col-1)*9+t,"m9res"] <- round(m9$mean$p.real[col, 6, t], digits=3)
